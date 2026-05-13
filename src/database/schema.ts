@@ -47,10 +47,10 @@ export const initDatabase = async () => {
       -- DANH MỤC THU (INCOME) - ĐÃ CHUYỂN SANG MATERIAL ICONS
       ('salary', 'Tiền lương', 'income', 'account-balance-wallet', '#10B981', 1),
       ('bonus', 'Tiền thưởng', 'income', 'celebration', '#F59E0B', 1),
-      ('investment', 'Đầu tư', 'income', 'trending-up', '#059669', 1),
+      ('investment', 'Đầu tư', 'income', 'show-chart', '#059669', 1),
       ('gift', 'Được tặng', 'income', 'card-giftcard', '#D946EF', 1),
-      ('selling', 'Bán đồ', 'income', 'inventory', '#F97316', 1),
-      ('freelance', 'Làm thêm', 'income', 'menu-book', '#6366F1', 1),
+      ('selling', 'Bán đồ', 'income', 'inventory-2', '#F97316', 1),
+      ('freelance', 'Làm thêm', 'income', 'history-edu', '#6366F1', 1),
       ('other_inc', 'Khác', 'income', 'more-horiz', '#6B7280', 1);
     `);
     console.log("Đã tạo dữ liệu danh mục mặc định với MaterialIcons!");
